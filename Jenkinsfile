@@ -51,7 +51,7 @@ pipeline {
         }
         stage ('destory') {
             steps {
-                sh "pwd;cd terraform/; terraform destroy -input=false tfplan"
+                sh "pwd;cd terraform/ ; terraform destroy -input=false tfplan"
     }
 
   }
